@@ -21,6 +21,7 @@ metadata:
   version: "0.3.1"
   category: business
   tags: review, annotate, contract, legal, document, business, 商务, 合同
+  internal: true  # plaintext source — never installed; the encrypted public/SKILL.md is what users get
 ---
 
 # review-doc — Review & Annotate Documents / 批阅文档与合同
