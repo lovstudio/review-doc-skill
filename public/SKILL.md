@@ -31,7 +31,6 @@ lovstudio-activate decrypt review-doc
 5. Do NOT cache the decrypted output between invocations — always re-decrypt on each use. The decryption is cheap (one HTTP round-trip) and re-running guarantees the user's license is still valid.
 
 The encrypted payload lives in one of:
-- `~/.lovstudio/brand_skills/review-doc/`
 - `~/.claude/skills/review-doc/`
 - `~/.claude/skills/lovstudio-review-doc/`
 You don't need to touch it directly — just call `lovstudio-activate decrypt review-doc`.
