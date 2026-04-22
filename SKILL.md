@@ -1,6 +1,6 @@
 ---
 name: lovstudio:review-doc
-version: "0.1.0"
+version: "0.1.1"
 description: >
   Review and annotate documents/contracts — output annotated docx with comments
   or tracked changes. Core: contract review (risk clauses, rights imbalance,
