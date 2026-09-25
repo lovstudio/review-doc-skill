@@ -3,15 +3,17 @@ name: lov-review-doc
 description: >
   专业合同分析、审阅、批注与红线修订。用于用户要求审查合同、协议、条款、NDA、采购或服务合同、SaaS 或数据协议、劳动或顾问协议、知识产权许可、投融资文件，或要求风险分析、逐条批注、修订模式、谈判建议、审阅报告时；支持 DOCX 原位批注和修订，以及 PDF、图片或纯文本的定位审阅。
 license: MIT
+depends_on:
+  - lov-branding-consistency
 metadata:
   author: contributors
-  version: "1.1.0"
+  version: "1.1.1"
   category: business
   tags: contract legal review annotate redline negotiation 合同 审阅 批注 修订
   compatibility: Python 3.8+、python-docx 1.0+、lxml 4.9+；支持 macOS、Windows 和 Linux
 ---
 
-# 合同专家审阅
+# 合同精修 · Contract Polish
 
 以资深交易律师与法务负责人的工作标准审阅合同。既判断法律风险，也判断交易能否履行、责任是否对等、证据是否留得住、争议时是否执行得了。不要把关键词扫描冒充专业审阅。
 
