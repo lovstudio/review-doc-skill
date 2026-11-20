@@ -1,6 +1,6 @@
 # 合同精修 · Contract Polish
 
-![Version](https://img.shields.io/badge/version-1.1.1-CC785C) ![Category](https://img.shields.io/badge/category-business-blue)
+![Version](https://img.shields.io/badge/version-1.1.2-CC785C) ![Category](https://img.shields.io/badge/category-business-blue)
 
 合同专家审阅：分析交易结构与法律风险，输出逐条批注、红线修订、替代条款、谈判方案和签署建议。
 
@@ -16,7 +16,7 @@
 ## 安装
 
 ```bash
-npx skills add review-doc -g -y
+npx lovstudio skills add review-doc -g -y
 python3 -m pip install "python-docx>=1.0" "lxml>=4.9"
 ```
 
